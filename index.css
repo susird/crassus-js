@@ -1,5 +1,17 @@
-h1 {
- color: red;
- font-family: 'Raleway', sans-serif;
- font-size: 30px;
+.logo {
+  background-image: url(https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg);
+  background-size: cover;
+  background-clip: text;
+  color: rgba(103, 141, 47, 0.123);
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-align: center;
+  transition: transform 1s;
+  -webkit-background-clip: text;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  -webkit-text-stroke: 0.2px rgba(10, 78, 10, 0.664);
 }
