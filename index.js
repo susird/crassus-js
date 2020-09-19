@@ -1,5 +1,3 @@
-console.log('Hello World')
-
 import { createLogo } from './Components/Logo.js'
 
 const rootElement = document.getElementById('root');

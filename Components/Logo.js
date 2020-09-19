@@ -4,5 +4,5 @@ export function createLogo() {
   logoElement.className = 'logo';
   logoElement.textContent = "Crassus";
  
-  return logoElement
+  return logoElement;
 }
