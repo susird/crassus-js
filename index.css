@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .logo {
   background-image: url(https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg);
   background-size: cover;
@@ -29,6 +39,24 @@
 }
 
 .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nav-links::after {
+  content: "";
+  background-color: rgba(34, 49, 12, 0.404);
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+  position: relative;
+  right: 20px;
+  width: 2px;
+}
+
+.nav-links a {
   background-color: transparent;
   border: 0;
   color: rgba(34, 49, 12, 0.404);
@@ -36,4 +64,15 @@
   margin-right: 40px;
   transition: transform 1s;
   text-decoration: none;
+}
+.nav-links:hover a {
+  transform: scale(1.1);
+  -webkit-text-stroke: 0.2px rgba(10, 78, 10, 0.664);
+}
+.nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  list-style-type: none;
 }
