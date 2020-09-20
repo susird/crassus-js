@@ -1,7 +1,7 @@
-import { data } from '../data.js'
+import { data } from '../data.js';
 
 export function createHeader() {
-  const { header: {links} } = data
+  const { header: {links} } = data;
   const headerElement = document.createElement('header');
   headerElement.className = 'header';
 
@@ -18,9 +18,9 @@ export function createHeader() {
     `;
 
     linkElement.appendChild(element);
-  })
+  });
 
   headerElement.appendChild(linkElement);
 
-  return headerElement
+  return headerElement;
 }
