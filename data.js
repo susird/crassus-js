@@ -38,15 +38,15 @@ export const data = {
     
     "article": [
       {
-       "image": "https://api.adorable.io/avatars/1000/65.png",
+       "image": "https://live.staticflickr.com/6156/6157047787_323116a8c2_b.jpg",
        "description": "Lorem Ipsum1"
       },
       {
-       "image": "https://api.adorable.io/avatars/1000/85.png",
+       "image": "https://i.pinimg.com/originals/1c/37/f9/1c37f91ea5daceb9e4e940f7f38d580f.jpg",
         "description": "Lorem Ipsum2"
       },
       {
-        "image": "https://api.adorable.io/avatars/1000/65.png",
+        "image": "https://cdn2.salud180.com/sites/default/files/styles/medium/public/field/image/2020/05/como_cambiar_color_suculentas_0.jpg",
         "description": "Lorem Ipsum3"
       }
     ]
