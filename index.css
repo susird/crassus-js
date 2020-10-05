@@ -11,11 +11,11 @@ body {
 .logo {
   background-image: url(https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg);
   background-size: cover;
+  -webkit-background-clip: text;
   background-clip: text;
   color: rgba(103, 141, 47, 0.123);
   font-size: 100px;
   transition: transform 1s;
-  -webkit-background-clip: text;
 }
 
 .logo:hover {
