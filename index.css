@@ -1,17 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .logo {
   background-image: url(https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg);
   background-size: cover;
+  -webkit-background-clip: text;
   background-clip: text;
   color: rgba(103, 141, 47, 0.123);
   font-size: 100px;
-  font-weight: bold;
-  letter-spacing: 4px;
-  text-align: center;
   transition: transform 1s;
-  -webkit-background-clip: text;
 }
 
 .logo:hover {
   transform: scale(1.2);
   -webkit-text-stroke: 0.2px rgba(10, 78, 10, 0.664);
+}
+
+.header {
+  align-items: center;
+  background-color: rgba(216, 143, 143, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links::after {
+  content: "";
+  background-color: rgba(34, 49, 12, 0.404);
+  height: 42px;
+  position: relative;
+  right: 20px;
+  width: 2px;
+}
+
+.nav-links a {
+  color: rgba(34, 49, 12, 0.404);
+  font-size: 30px;
+  margin-right: 40px;
+  text-decoration: none;
+  transition: transform 1s;
+}
+
+.nav-links:hover a {
+  transform: scale(1.1);
+  -webkit-text-stroke: 0.2px rgba(10, 78, 10, 0.664);
+}
+
+.button {
+  display: none;
+}
+
+.ham-box {
+  background-color: rgba(216, 143, 143, 0.5);
+  display: none;
+  height: 239px;
+  margin-top: 338px;
+  transition: transform 0.2s ease;
+  width: 191px;
+}
+
+.showHam .ham-box {
+  display: block;
+}
+
+.showHam .button {
+  display: none;
+}
+
+@media (max-width: 639px) {
+
+  .header {
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .ham-box {
+    background-color: rgba(216, 143, 143, 0.5);
+    display: none;
+    height: 305px;
+    margin-top: 405px;
+    position: absolute;
+    right: 0;
+    transition: transform 0.2s ease;
+    width: 254px;
+  }
+
+  .showHam .links {
+    display: block;
+    position: absolute;
+    top: 154px;
+    right: 0;
+  }
+
+  .showHam .nav-links a {
+    font-size: 30px;
+  }
+
+  .showHam .nav-links {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+
+  .showHam .nav-links::after {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 130px;
+  }
+
+  .logo {
+    font-size: 46px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+  .button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .item-button {
+    background-color: gray;
+    border-radius: 4px;
+    height: 3px;
+    margin-bottom: 5px;
+    width: 29px;
+  }
+
+  .showHam .button {
+    display: block;
+  }
+
+  .showHam .item-button-1 {
+    display: none;
+  }
+
+  .showHam .item-button-2 {
+    position: absolute;
+    right: 30px;
+    transform: rotate(45deg);
+  }
+
+  .showHam .item-button-3 {
+    position: absolute;
+    right: 30px;
+    transform: rotate(-45deg);
+  }
 }

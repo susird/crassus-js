@@ -1,6 +1,7 @@
-import { createLogo } from './Components/Logo.js'
+import { createHeader } from './Components/Header.js';
 
 const rootElement = document.getElementById('root');
-const logoElement = createLogo();
+const headerElement = createHeader();
 
-rootElement.appendChild(logoElement);
+rootElement.appendChild(headerElement);
+
