@@ -5,6 +5,9 @@ export function createMain() {
   const mainElement = document.createElement('main')
   mainElement.className = 'main';
 
+  const urlToFigure = "https://api.adorable.io/avatars/1000/35.png";
+  const urlToPost = "https://api.adorable.io/avatars/1000/500.png";
+
   const asideElement = document.createElement('aside');
   asideElement.className = 'last-posts';
   
@@ -15,14 +18,9 @@ export function createMain() {
   postsElement.className = 'posts';
 
   aside.forEach( ({title, content})=> {
-    /*const readMoreElement = document.createElement('a')
-    readMoreElement.className = 'read-more';
-    readMoreElement.textContent = "Read More";*/
-
     const elementToPost = document.createElement ('li');
     elementToPost.className = "content"
-    elementToPost.innerHTML = `<h3>${title}</h3><p>${content}</p><a class="read-more" href="https://api.adorable.io/avatars/1000/500.png">Read More...</a>`
-    //elementToPost.appendChild(readMoreElement);
+    elementToPost.innerHTML = `<h3>${title}</h3><p>${content}</p><a class="read-more" href="${urlToPost}">Read More...</a>`
     postsElement.appendChild(elementToPost);
   });
 
@@ -36,8 +34,7 @@ export function createMain() {
   article.forEach( ({ image, description }) =>{
     const elementToFigure = document.createElement('li')
     elementToFigure.className = "caption"
-    elementToFigure.innerHTML =`<a href="https://api.adorable.io/avatars/1000/35.png"><img src=${image}></a>${description}`;
-    
+    elementToFigure.innerHTML =`<a href=${urlToFigure}><img src=${image}></a>${description}`;
     figureElement.appendChild(elementToFigure);
   })
   
