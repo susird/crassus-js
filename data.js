@@ -57,21 +57,18 @@ export const data = {
       "title": "Crassus"
     },
     "description": "Especialistas y enamorados de las Crasas.",
-    "social-media": [
+    "socialMedia": [
       {
-        "name": "Instagram",
         "href": "https://instagram.com/ve5pula",
-        "image": "https://api.adorable.io/avatars/1000/35.png"
+        "image": "https://www.flaticon.es/svg/static/icons/svg/725/725339.svg"
       },
       {
-        "name": "Twitter",
         "href": "https://twitter.com/ve5pula",
-        "image": "https://api.adorable.io/avatars/1000/15.png"
+        "image": "https://www.flaticon.es/svg/static/icons/svg/725/725372.svg"
       },
       {
-        "name": "Facebook",
         "href": "https://facebook.com",
-        "image": "https://api.adorable.io/avatars/1000/25.png"
+        "image": "https://www.flaticon.es/svg/static/icons/svg/725/725350.svg"
       }
     ]
   }

@@ -90,6 +90,7 @@ body {
   display: none;
 }
 
+<<<<<<< HEAD
 .main {
   background-color: rgba(34, 49, 12, 0.404);
   display: flex;
@@ -167,6 +168,27 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 20px;
+=======
+.footer {
+  background-color: rgba(83, 84, 77, 0.87);
+  display: flex;
+  flex-direction: row;
+  height: 220px;
+  width: 100vw;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+.social-links img {
+  height: 28px;
+  width: 32px;  
+>>>>>>> Add social-media icons and footer
 }
 
 @media (max-width: 639px) {
