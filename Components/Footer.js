@@ -2,7 +2,7 @@ import { data } from '../data.js';
 import { createLogo } from './Logo.js';
 
 export function createFooter() {
-  const { footer: { description, socialMedia} } = data; // problema con el guion
+  const { footer: { description, socialMedia} } = data; 
   const footerElement = document.createElement('footer');
   footerElement.className = 'footer';
 
@@ -13,7 +13,6 @@ export function createFooter() {
   descriptionElement.className = 'description';
   descriptionElement.textContent = description;
   
-
   const socialElement = document.createElement('ul');
   socialElement.className = 'social'
 
