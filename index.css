@@ -15,12 +15,6 @@ body {
   background-clip: text;
   color: rgba(103, 141, 47, 0.123);
   font-size: 100px;
-  transition: transform 1s;
-}
-
-.logo:hover {
-  transform: scale(1.2);
-  -webkit-text-stroke: 0.2px rgba(10, 78, 10, 0.664);
 }
 
 .header {
@@ -169,6 +163,44 @@ body {
   border-radius: 20px;
 }
 
+.footer {
+  background-color: rgba(83, 84, 77, 0.87);
+  display: flex;
+  height: 220px;
+}
+
+.logo-social {
+  padding: 0px 0px 0px 25px;
+}
+
+.logo-social p {
+  font-weight: bold;
+  color: #000000b0;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  padding: 15px 0 0 0;
+}
+
+.social-links img {
+  height: 28px;
+  width: 32px; 
+}
+
+.menu-footer {
+  list-style-type: none;
+  padding: 50px 100px 0;
+}
+
+.menu-links-footer a {
+  text-decoration: none;
+  color: #000000a1;
+  font-weight: bold;
+  font-size: 25px;
+}
+
 @media (max-width: 639px) {
 
   .header {
@@ -293,5 +325,13 @@ body {
 
   .caption {
     width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .menu-footer {
+    display: none;
   }
 }

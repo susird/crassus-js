@@ -2,7 +2,7 @@ export const data = {
   "header": {
     "logo": {
       "title": "Crasus",
-      "img": "https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg" 
+      "img": "https://img.freepik.com/foto-gratis/disposicion-rectangular-suculentas-cactus-suculentas-plantador_1127-3108.jpg?size=626&ext=jpg"
     },
     "links": [
       {
@@ -35,14 +35,14 @@ export const data = {
         "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
       }
     ],
-    
+
     "article": [
       {
-       "image": "https://live.staticflickr.com/6156/6157047787_323116a8c2_b.jpg",
-       "description": "Lorem Ipsum1"
+        "image": "https://live.staticflickr.com/6156/6157047787_323116a8c2_b.jpg",
+        "description": "Lorem Ipsum1"
       },
       {
-       "image": "https://i.pinimg.com/originals/1c/37/f9/1c37f91ea5daceb9e4e940f7f38d580f.jpg",
+        "image": "https://i.pinimg.com/originals/1c/37/f9/1c37f91ea5daceb9e4e940f7f38d580f.jpg",
         "description": "Lorem Ipsum2"
       },
       {
@@ -50,29 +50,27 @@ export const data = {
         "description": "Lorem Ipsum3"
       }
     ]
-    },
-  
+  },
+
   "footer": {
     "logo": {
       "title": "Crassus"
     },
     "description": "Especialistas y enamorados de las Crasas.",
-    "social-media": [
-      {
-        "name": "Instagram",
-        "href": "https://instagram.com/ve5pula",
-        "image": "https://api.adorable.io/avatars/1000/35.png"
-      },
-      {
-        "name": "Twitter",
-        "href": "https://twitter.com/ve5pula",
-        "image": "https://api.adorable.io/avatars/1000/15.png"
-      },
-      {
-        "name": "Facebook",
-        "href": "https://facebook.com",
-        "image": "https://api.adorable.io/avatars/1000/25.png"
-      }
-    ]
+    "socialMedia":
+      [
+        {
+          "href": "https://instagram.com/ve5pula",
+          "image": "https://www.flaticon.es/svg/static/icons/svg/725/725339.svg"
+        },
+        {
+          "href": "https://twitter.com/ve5pula",
+          "image": "https://www.flaticon.es/svg/static/icons/svg/725/725372.svg"
+        },
+        {
+          "href": "https://facebook.com",
+          "image": "https://www.flaticon.es/svg/static/icons/svg/725/725350.svg"
+        }
+      ]
   }
 }
