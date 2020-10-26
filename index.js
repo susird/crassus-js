@@ -1,5 +1,4 @@
 import { createHeader } from './Components/Header.js';
-import { createLogo } from './Components/Logo.js'
 import { createMain } from './Components/Main.js'
 import { createFooter } from './Components/Footer.js';
 

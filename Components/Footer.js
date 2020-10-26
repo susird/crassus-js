@@ -16,7 +16,7 @@ export function createFooter() {
   const socialElement = document.createElement('ul');
   socialElement.className = 'social'
 
-  socialMedia.forEach(({href, image, description}) => {
+  socialMedia.forEach(({href, image}) => {
     const elementToSocial = document.createElement('li');
     elementToSocial.className = 'social-links';
     elementToSocial.innerHTML = `<a href=${href}><img src= ${image}></a>`;
