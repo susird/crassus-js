@@ -5,8 +5,8 @@ export function createMain() {
   const mainElement = document.createElement('main')
   mainElement.className = 'main';
 
-  const urlToFigure = "https://api.adorable.io/avatars/1000/35.png";
-  const urlToPost = "https://api.adorable.io/avatars/1000/500.png";
+  const urlToFigure = "https://avatars.dicebear.com/api/avataaars/55.svg";
+  const urlToPost = "https://avatars.dicebear.com/api/avataaars/85.svg";
 
   const asideElement = document.createElement('aside');
   asideElement.className = 'last-posts';

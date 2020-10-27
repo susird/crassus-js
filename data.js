@@ -7,19 +7,19 @@ export const data = {
     "links": [
       {
         "label": "Inicio",
-        "href": "https://api.adorable.io/avatars/1000/100.png"
+        "href": "https://avatars.dicebear.com/api/avataaars/15.svg"
       },
       {
         "label": "Publicaciones",
-        "href": "https://api.adorable.io/avatars/1000/05.png"
+        "href": "https://avatars.dicebear.com/api/avataaars/.svg"
       },
       {
         "label": "Fotos",
-        "href": "https://api.adorable.io/avatars/1000/200.png"
+        "href": "https://avatars.dicebear.com/api/avataaars/520.svg"
       },
       {
         "label": "Plantas",
-        "href": "https://api.adorable.io/avatars/1000/300.png"
+        "href": "https://avatars.dicebear.com/api/avataaars/420.svg"
       }
     ]
   },
